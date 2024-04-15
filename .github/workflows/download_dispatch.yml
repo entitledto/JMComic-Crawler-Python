@@ -5,7 +5,7 @@ on:
     inputs:
       JM_ALBUM_IDS:
         type: string
-        description: 434517（多个id用-隔开，如 '123-456-789'）
+        description: JMid（多个id用-隔开，如 '123-456-789'）
         required: false
 
       JM_PHOTO_IDS:
@@ -33,13 +33,13 @@ on:
 
       ZIP_NAME:
         type: string
-        default: 本子.tar.gz
+        default: 压缩包.tar.gz
         description: 压缩文件名称
         required: false
 
       UPLOAD_NAME:
         type: string
-        default: 下载完成的本子
+        default: 下载完成
         description: 上传文件名称
         required: false
 
